@@ -1,0 +1,30 @@
+# Eclipse ignores (device-side project)
+device/.metadata
+device/bin/
+device/tmp/
+device/*.tmp
+device/*.bak
+device/*.swp
+device/*~.nib
+device/local.properties
+device/.settings/
+device/.loadpath
+device/.recommenders
+device/*.launch
+device/.cproject
+device/.project
+
+# VSCode
+**/.vscode/
+# KDE Plasma
+.directory
+
+# Ignore build files
+host/build/
+device/Debug/
+
+# Custom ignores for our project
+device/channel_in
+device/channel_out
+device/nv_mem
+install
